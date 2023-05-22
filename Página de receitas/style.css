@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+body{
+    font-size: 100%;
+}
+header{
+    background-color: #ff6b28;
+    padding: 10px;
+}
+header>img{
+    display: block;
+    margin: auto;
+}
+.banner{
+    background-image: url(./images/hero_bolo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+}
+.headliner>h1{
+    color: #ff6b28;
+    font-weight: bold;
+    font-size: 2em;
+    text-indent: 200px;
+    margin: 50px;
+}
+
+.ingredientes>h2{
+    color: #ff6b28;
+    font-size: 1.5em;
+}
+.ingredientes>ul>li{
+    font-weight: bold;
+    padding: 5px;
+}
+.container>button{
+    background-color: #ff6b28;
+    color: #fff;
+    border-style: none;
+    border-radius: 10px;
+    font-size: 1em;
+    font-weight: bold ;
+    padding: 10px;
+    margin-top: 10px;
+}
+.container>h2{
+    color: #ff6b28;
+    font-weight: bold;
+    padding: 10px;
+}
+.lista-ingredientes>li{
+    font-weight: bolder;
+    padding: 5px;
+}
+.container{
+    
+    border-radius: 10px;
+    width: 800px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin: auto;
+}
+.container:hover{
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.328);
+}
+.modo-de-preparo{
+    border-radius: 10px;
+    width: 800px;
+    margin: auto;
+    padding: 50px;
+}
+.modo-de-preparo:hover{
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.328);
+}
+.modo-de-preparo>h2{
+    color: #ff6b28;
+    font-weight: bold;
+    padding: 10px;
+}
+.modo-de-preparo>ul>li{
+    font-weight: bold;
+    padding: 5px;
+    padding-left: 50px;
+    list-style: none;
+    
+}
+.preparo{
+    margin-top: 32px;
+}
+.instrucoes-adicionais>h2{
+    color: #ff6b28;
+    margin-bottom: 32px;
+}
+.instrucoes-adicionais>p{
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.instrucoes{
+    border-radius: 10px;
+    width: 800px;
+    margin: auto;
+    margin-top: 32px;
+    padding: 50px;
+    margin-bottom: 32px;
+}
+.instrucoes:hover{
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.328); 
+}
+footer{
+    background-color: #ff6b28;
+    transition-delay: 0.1s;
+
+}
+footer>p{
+    color: white;
+    font-weight: regular;
+    text-align: center;
+    padding: 20px;
+}
+.ingredientes{
+    cursor: url("./images/cursor_ingredientes.png"), default;
+}
+.preparo{
+    cursor: url("./images/cursor_preparo.png"), default;
+}
+.instrucoes{
+    cursor: url("./images/cursor_intrucoes.png"), default;
+}
