@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;600;700&display=swap');
+
+
+.topBar{
+    background-color: #333;
+  
+}
+.topBar>p{
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.3em;
+    padding: 30px;   
+    text-align: center;
+    border-bottom: 4px solid #fd8a24;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     
+}
+.container>h1{
+    margin: 30px 0px 30px 0px;
+    width: 700px;
+    font-size: 3em;
+}
+.descricaoCabecalho>p{
+    margin: 10px;
+    width: 700px;
+}
+#autora{
+    font-weight: bold;
+    color: #333;
+}
+#data{
+    font-size: 14px;
+    color: #333;
+}
+.descricaoCabecalho>img{
+    width: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.linha1{
+    border-bottom: 0.4px solid rgb(151, 151, 151);
+    width: 730px;
+    margin: auto;
+}
+.artigo1{
+    width: 510px;
+    margin: auto;
+    text-align: justify;
+    padding-top: 30px;
+}
+.artigo1>p{
+    margin-top: 15px;
+    color: #333;
+}
+strong{
+    color: #fd8a24;
+    font-weight: bold;
+}
+
+figure>img{
+    margin-top: 30px;
+    width: 520px;
+}
+figure>figcaption{
+    color: #333;
+    font-size: 14px;
+}
+.artigo1>h2{
+    margin-top: 10px;
+}
+footer{
+    background-color: #333;
+    height: 10vh;
+}
