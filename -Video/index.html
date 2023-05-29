@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" >
+        <div onmouseout="tirarMouse()" onmouseover="passarMouse()" >
+            <video  id="video" class="video" src="assets/2023-05-13 00-20-39.mp4"></video>
+            <div id="controles" class="controles">
+                <img onclick="retornar()" class="btn" src="assets/retornar.png" alt="">
+                <img onclick="avancar()" class="btn" src="assets/avancar.png" alt="">
+                <img onclick="aumentarVel()" class="btn" src="assets/aumentar.png" alt="">
+                <img onclick="diminuirVel()" class="btn" src="assets/diminuir.png" alt="">
+                <img onclick="play()" class="btn" src="assets/play.png" alt="">
+                <img onclick="parar()" class="btn" src="assets/parar.png" alt="">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
